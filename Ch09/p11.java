@@ -30,8 +30,17 @@ public class p11 {
 		for (int i = 0; i<=n; i++ ){
 			//Array.setInt(a,i,fibonacciNum(i));
 			a[i] = fibonacciNum(i);
+			//a[i] = fn(i);
 		}
 		return a;
 		
-	} 
+	}
+
+
+    //public static int fn(int n ) {
+	//	double g = .5(1+Math.sqrt(5));
+	//	double u = .5(1-Math.sqrt(5));
+//
+//		return Math.round((Math.pow(g,n)-Math.pow(u,n))/Math.sqrt(5));
+//	}
 }
