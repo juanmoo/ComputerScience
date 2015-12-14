@@ -13,11 +13,11 @@ public class p23 {
 
 	for (int i = 0; i <= length-1; i++) {
 		System.out.print("Enter element number "+(i+1)+" :");
-		list[i] = kb.nextInt();
+		list[i] = kb.nextDouble();
 		System.out.println();
 	}
 	System.out.print("Enter number: ");
-	int num = kb.nextInt();
+	double num = kb.nextDouble();
 
 	String array = Arrays.toString(list);
 	System.out.println("The list is :"+array+".");        
